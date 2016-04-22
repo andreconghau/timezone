@@ -8,5 +8,6 @@
     }
   ],
   "minimum-stability": "stable",
-  "require": {}
+  "require": {},
+  "prefer-stable" : true
 }
