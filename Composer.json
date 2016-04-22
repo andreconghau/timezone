@@ -1,13 +1,27 @@
 {
-  "name": "andreconghau/timezone",
-  "description": "Demo-package to show time",
-  "authors": [
-    {
-      "name": "Laravel Daily",
-      "email": "info@laraveldaily.com"
-    }
-  ],
-  "minimum-stability": "stable",
-  "require": {},
-  "prefer-stable" : true
+    "name": "andreconghau/timezone",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "le cong hau",
+            "email": "andreconghau@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraveldaily\\Timezones\\": ""
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
 }
