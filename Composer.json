@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laraveldaily\\Timezones\\": "src/"
+            "Andreconghau\\Timezones\\": "src/"
         }
     }
 }
