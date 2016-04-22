@@ -17,10 +17,5 @@
             "helpers.php"
         ]
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.0-dev"
-        }
-    },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
